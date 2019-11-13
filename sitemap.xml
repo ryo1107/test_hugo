@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ryo1107.github.io/test_hugo/posts/</loc>
+    <loc>https://ryo1107.github.io/test_hugo/./posts/</loc>
     <lastmod>2019-11-13T16:51:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryo1107.github.io/test_hugo/</loc>
+    <loc>https://ryo1107.github.io/test_hugo/./</loc>
     <lastmod>2019-11-13T16:51:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryo1107.github.io/test_hugo/posts/text/</loc>
+    <loc>https://ryo1107.github.io/test_hugo/./posts/text/</loc>
     <lastmod>2019-11-13T16:51:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryo1107.github.io/test_hugo/categories/</loc>
+    <loc>https://ryo1107.github.io/test_hugo/./categories/</loc>
   </url>
   
   <url>
-    <loc>https://ryo1107.github.io/test_hugo/tags/</loc>
+    <loc>https://ryo1107.github.io/test_hugo/./tags/</loc>
   </url>
   
 </urlset>

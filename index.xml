@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python B3 text</title>
-    <link>https://ryo1107.github.io/test_hugo/</link>
+    <link>https://ryo1107.github.io/test_hugo/./</link>
     <description>Recent content on Python B3 text</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 13 Nov 2019 16:51:37 +0900</lastBuildDate>
     
-	<atom:link href="https://ryo1107.github.io/test_hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryo1107.github.io/test_hugo/./index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pythonゼミ テキスト</title>
-      <link>https://ryo1107.github.io/test_hugo/posts/text/</link>
+      <link>https://ryo1107.github.io/test_hugo/./posts/text/</link>
       <pubDate>Wed, 13 Nov 2019 16:51:37 +0900</pubDate>
       
-      <guid>https://ryo1107.github.io/test_hugo/posts/text/</guid>
+      <guid>https://ryo1107.github.io/test_hugo/./posts/text/</guid>
       <description>google colabの初期設定 Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。
  GoogleDriveにアクセスします。 環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。  (すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)
  colabと検索し、追加します。   GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。  以上でGoogleの提供しているpythonの実行環境が表示されます。
