@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python B3 text</title>
+    <link>https://ryo1107.github.io/test_hugo/</link>
+    <description>Recent content on Python B3 text</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 13 Nov 2019 16:51:37 +0900</lastBuildDate>
+    
+	<atom:link href="https://ryo1107.github.io/test_hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pythonゼミ テキスト</title>
+      <link>https://ryo1107.github.io/test_hugo/posts/text/</link>
+      <pubDate>Wed, 13 Nov 2019 16:51:37 +0900</pubDate>
+      
+      <guid>https://ryo1107.github.io/test_hugo/posts/text/</guid>
+      <description>google colabの初期設定 Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。
+ GoogleDriveにアクセスします。 環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。  (すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)
+ colabと検索し、追加します。   GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。  以上でGoogleの提供しているpythonの実行環境が表示されます。
+jupyterという形式になっており、GoogleDriveの容量の限り使えます。
+最終目標 データの読み込みをして
+解析をして
+結果を保存する
+print文 print(&amp;quot;Hello World&amp;quot;) #文字列の標準出力 print(123) #数値の標準出力 print(&amp;quot;Hello&amp;quot;+&amp;quot; &amp;quot;+&amp;quot;World&amp;quot;) #文字列の結合後に標準出力 num=123 print(str(num)+&amp;quot;test&amp;quot;) #数値を文字列に変換後、文字列の結合をし標準出力 text=&amp;quot;Hello2&amp;quot; print(text) #変数内の文字列の標準出力 print([1,2,3,4,5]) #リストの標準出力  データの読み込み numpyというライブラリに入っているloadtxtという関数を使用してnumpy配列の形式でデータを読み込みます。
+import numpy as np data=np.loadtxt(&amp;quot;ファイル名.csv&amp;quot;,delimiter=&amp;quot;,&amp;quot;)  データのグラフ表示 matplotlibというライブラリに入っている
+pyplotというモジュールの中に入っている
+plotとshowという関数を使います。
+import numpy as np import matplotlib.pyplot as plt data=np.loadtxt(&amp;quot;ファイル名.csv&amp;quot;,delimiter=&amp;quot;,&amp;quot;) plt.plot(data) plt.show()  データの保存 numpyに入っているsavetxtという関数を使います。
+import numpy as np data=np.</description>
+    </item>
+    
+  </channel>
+</rss>

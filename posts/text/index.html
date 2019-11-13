@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Python B3 text  | Pythonゼミ テキスト</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/test_hugo/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Pythonゼミ テキスト" />
+<meta property="og:description" content="google colabの初期設定 Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。
+ GoogleDriveにアクセスします。 環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。  (すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)
+ colabと検索し、追加します。   GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。  以上でGoogleの提供しているpythonの実行環境が表示されます。
+jupyterという形式になっており、GoogleDriveの容量の限り使えます。
+最終目標 データの読み込みをして
+解析をして
+結果を保存する
+print文 print(&quot;Hello World&quot;) #文字列の標準出力 print(123) #数値の標準出力 print(&quot;Hello&quot;&#43;&quot; &quot;&#43;&quot;World&quot;) #文字列の結合後に標準出力 num=123 print(str(num)&#43;&quot;test&quot;) #数値を文字列に変換後、文字列の結合をし標準出力 text=&quot;Hello2&quot; print(text) #変数内の文字列の標準出力 print([1,2,3,4,5]) #リストの標準出力  データの読み込み numpyというライブラリに入っているloadtxtという関数を使用してnumpy配列の形式でデータを読み込みます。
+import numpy as np data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;)  データのグラフ表示 matplotlibというライブラリに入っている
+pyplotというモジュールの中に入っている
+plotとshowという関数を使います。
+import numpy as np import matplotlib.pyplot as plt data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;) plt.plot(data) plt.show()  データの保存 numpyに入っているsavetxtという関数を使います。
+import numpy as np data=np." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ryo1107.github.io/test_hugo/posts/text/" />
+<meta property="article:published_time" content="2019-11-13T16:51:37+09:00" />
+<meta property="article:modified_time" content="2019-11-13T16:51:37+09:00" />
+<meta itemprop="name" content="Pythonゼミ テキスト">
+<meta itemprop="description" content="google colabの初期設定 Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。
+ GoogleDriveにアクセスします。 環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。  (すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)
+ colabと検索し、追加します。   GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。  以上でGoogleの提供しているpythonの実行環境が表示されます。
+jupyterという形式になっており、GoogleDriveの容量の限り使えます。
+最終目標 データの読み込みをして
+解析をして
+結果を保存する
+print文 print(&quot;Hello World&quot;) #文字列の標準出力 print(123) #数値の標準出力 print(&quot;Hello&quot;&#43;&quot; &quot;&#43;&quot;World&quot;) #文字列の結合後に標準出力 num=123 print(str(num)&#43;&quot;test&quot;) #数値を文字列に変換後、文字列の結合をし標準出力 text=&quot;Hello2&quot; print(text) #変数内の文字列の標準出力 print([1,2,3,4,5]) #リストの標準出力  データの読み込み numpyというライブラリに入っているloadtxtという関数を使用してnumpy配列の形式でデータを読み込みます。
+import numpy as np data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;)  データのグラフ表示 matplotlibというライブラリに入っている
+pyplotというモジュールの中に入っている
+plotとshowという関数を使います。
+import numpy as np import matplotlib.pyplot as plt data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;) plt.plot(data) plt.show()  データの保存 numpyに入っているsavetxtという関数を使います。
+import numpy as np data=np.">
+
+
+<meta itemprop="datePublished" content="2019-11-13T16:51:37&#43;09:00" />
+<meta itemprop="dateModified" content="2019-11-13T16:51:37&#43;09:00" />
+<meta itemprop="wordCount" content="112">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pythonゼミ テキスト"/>
+<meta name="twitter:description" content="google colabの初期設定 Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。
+ GoogleDriveにアクセスします。 環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。  (すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)
+ colabと検索し、追加します。   GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。  以上でGoogleの提供しているpythonの実行環境が表示されます。
+jupyterという形式になっており、GoogleDriveの容量の限り使えます。
+最終目標 データの読み込みをして
+解析をして
+結果を保存する
+print文 print(&quot;Hello World&quot;) #文字列の標準出力 print(123) #数値の標準出力 print(&quot;Hello&quot;&#43;&quot; &quot;&#43;&quot;World&quot;) #文字列の結合後に標準出力 num=123 print(str(num)&#43;&quot;test&quot;) #数値を文字列に変換後、文字列の結合をし標準出力 text=&quot;Hello2&quot; print(text) #変数内の文字列の標準出力 print([1,2,3,4,5]) #リストの標準出力  データの読み込み numpyというライブラリに入っているloadtxtという関数を使用してnumpy配列の形式でデータを読み込みます。
+import numpy as np data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;)  データのグラフ表示 matplotlibというライブラリに入っている
+pyplotというモジュールの中に入っている
+plotとshowという関数を使います。
+import numpy as np import matplotlib.pyplot as plt data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;) plt.plot(data) plt.show()  データの保存 numpyに入っているsavetxtという関数を使います。
+import numpy as np data=np."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://ryo1107.github.io/test_hugo/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Python B3 text
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Pythonゼミ テキスト</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-11-13T16:51:37&#43;09:00">November 13, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h1 id="google-colabの初期設定">google colabの初期設定</h1>
+
+<p>Googleアカウントを持っている場合はGoogleDriveと連携しているGoogleColaboratoryを使うことで簡単に環境構築ができます。</p>
+
+<ol>
+<li>GoogleDriveにアクセスします。</li>
+<li>環境を作りたいフォルダで右クリックをし、アプリを追加をクリックします。</li>
+</ol>
+
+<p><img src="https://hacknote.jp/wp-content/uploads/2019/10/e851fe82fc47dd7ac63ec175cd3395eb.png" alt="img" /><br>
+(すでに追加済みのアカウントのためアプリの一覧に存在していますが、初期状態ではありません)</p>
+
+<ol>
+<li>colabと検索し、追加します。</li>
+</ol>
+
+<p><img src="https://hacknote.jp/wp-content/uploads/2019/10/abc1c2f09608f7fa827d030cefdda677.png" alt="img2" /><img src="https://hacknote.jp/wp-content/uploads/2019/10/024defaabca1f37635239985aea1965d.png" alt="img3" /></p>
+
+<ol>
+<li>GoogleDriveのフォルダに戻ってきて、右クリックのメニューからGoogle Colaboratoryをクリックします。</li>
+</ol>
+
+<p>以上でGoogleの提供しているpythonの実行環境が表示されます。<br></p>
+
+<p>jupyterという形式になっており、GoogleDriveの容量の限り使えます。</p>
+
+<h1 id="最終目標">最終目標</h1>
+
+<p>データの読み込みをして<br>
+解析をして<br>
+結果を保存する</p>
+
+<h2 id="print文">print文</h2>
+
+<pre><code class="language-python">print(&quot;Hello World&quot;)       #文字列の標準出力
+
+print(123)                 #数値の標準出力
+
+print(&quot;Hello&quot;+&quot; &quot;+&quot;World&quot;) #文字列の結合後に標準出力
+
+num=123
+print(str(num)+&quot;test&quot;)     #数値を文字列に変換後、文字列の結合をし標準出力
+
+text=&quot;Hello2&quot;
+print(text)                #変数内の文字列の標準出力
+
+print([1,2,3,4,5])         #リストの標準出力
+</code></pre>
+
+<h2 id="データの読み込み">データの読み込み</h2>
+
+<p><code>numpy</code>というライブラリに入っている<code>loadtxt</code>という関数を使用してnumpy配列の形式でデータを読み込みます。</p>
+
+<pre><code class="language-python">import numpy as np
+
+data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;)
+</code></pre>
+
+<h2 id="データのグラフ表示">データのグラフ表示</h2>
+
+<p><code>matplotlib</code>というライブラリに入っている<br>
+<code>pyplot</code>というモジュールの中に入っている<br>
+<code>plot</code>と<code>show</code>という関数を使います。</p>
+
+<pre><code class="language-python">import numpy as np
+import matplotlib.pyplot as plt
+
+data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;)
+
+plt.plot(data)
+plt.show()
+</code></pre>
+
+<h2 id="データの保存">データの保存</h2>
+
+<p><code>numpy</code>に入っている<code>savetxt</code>という関数を使います。</p>
+
+<pre><code class="language-python">import numpy as np
+data=np.loadtxt(&quot;ファイル名.csv&quot;,delimiter=&quot;,&quot;) 
+np.savetxt(&quot;セーブしたいファイル名.csv&quot;,data,delimiter=&quot;,&quot;)
+</code></pre>
+
+<h2 id="高速フーリエ変換-fft">高速フーリエ変換(FFT)</h2>
+
+<pre><code class="language-python">fft_data=np.abs(np.fft.fft(data))
+#二乗かも
+</code></pre>
+
+<h2 id="pythonの基本文法">pythonの基本文法</h2>
+
+<h3 id="条件分岐-if-else文">条件分岐(if,else文)</h3>
+
+<pre><code class="language-python">a=0
+if a==0:
+    print(0)
+else:
+    print(1)
+</code></pre>
+
+<h3 id="for文">for文</h3>
+
+<pre><code class="language-python">for i in range(5):
+    print(i)
+
+for i in [0,1,2,3,4]:
+    print(i)
+
+words=[&quot;aaa&quot;,&quot;bbb&quot;,&quot;ccc&quot;,123]
+
+for i in words:
+    print(i)
+</code></pre>
+
+<h3 id="pythonで主に扱う型">pythonで主に扱う型</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">型名</th>
+<th align="center">説明</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">　int　</td>
+<td align="center">　整数型　</td>
+</tr>
+
+<tr>
+<td align="center">　float　</td>
+<td align="center">　浮動小数型　</td>
+</tr>
+
+<tr>
+<td align="center">　str　</td>
+<td align="center">　文字列　</td>
+</tr>
+
+<tr>
+<td align="center">　bool　</td>
+<td align="center">　真理型(True,1,真/False,0,偽)　</td>
+</tr>
+</tbody>
+</table>
+
+<p>確認する方法<br>
+type関数を使う！</p>
+
+<pre><code class="language-python">#例
+
+num=123  #整数型
+print(type(num)
+</code></pre>
+
+<h2 id="今後の環境構築の話">今後の環境構築の話</h2>
+
+<ul>
+<li>そのままcolabを使い続ける</li>
+<li>自分の(研究室の)PCに<a href="https://www.anaconda.com/distribution/">Anaconda</a>をインストールする</li>
+<li>pyenvなどを利用してインストールする</li>
+</ul>
+
+<p>e.c.t&hellip;</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://ryo1107.github.io/test_hugo/" >
+    &copy; 2019 Python B3 text
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/test_hugo/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
